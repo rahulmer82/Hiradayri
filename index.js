@@ -11,10 +11,8 @@ const app = express()
 const port =5000
 // const port = process.env.PORT || 5000
 
-// app.use(cors(corsOptions))
-app.use(cors({
-  origin:process.env.ORIGINE
-}))
+app.use(cors(corsOptions))
+
 app.use(express.json())
 
 // Available Routes
