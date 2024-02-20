@@ -4,8 +4,7 @@
   "description": "this is a hidadayri backend app",
   "main": "index.js",
   "scripts": {
-    "install-server": "npm install",
-    "start": "node index.js"
+    "start": "npx nodemon"
   },
   "author": "",
   "license": "ISC",
